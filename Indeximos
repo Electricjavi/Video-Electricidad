@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Videos sobre Electricidad</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: white;
+      padding: 1rem;
+    }
+    .video-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1rem;
+      padding: 2rem;
+    }
+    .video {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 1rem;
+    }
+    iframe {
+      width: 100%;
+      height: 200px;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Videos sobre Electricidad</h1>
+    <p>Reúne los mejores videos educativos sobre electricidad</p>
+  </header>
+  <main>
+    <div class="video-container">
+      <!-- Video 1 -->
+      <div class="video">
+        <h3>Conceptos Básicos</h3>
+        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+      </div>
+      <!-- Video 2 -->
+      <div class="video">
+        <h3>Seguridad Eléctrica</h3>
+        <iframe src="https://www.youtube.com/embed/T2PdyxMtiYM" allowfullscreen></iframe>
+      </div>
+      <!-- Añade más videos aquí -->
+    </div>
+  </main>
+</body>
+</html>
